@@ -1,13 +1,11 @@
 # HR-ATTRITION-ANALYSIS-PROJECT
 
-Here is a **complete Power BI project explanation** for your **HR Analysis of Attrition** dashboard that you can use for viva, interview, GitHub, or documentation.
-
----<img width="1316" height="738" alt="PROJECT" src="https://github.com/user-attachments/assets/9f866135-11c8-44f1-9abb-a775efc022ed" />
+<img width="1316" height="738" alt="PROJECT" src="https://github.com/user-attachments/assets/9f866135-11c8-44f1-9abb-a775efc022ed" />
 
 
-# 📊 HR ANALYSIS OF ATTRITION – Power BI Project Explanation
-
-## 🔹 1. Project Overview
+ HR ANALYSIS OF ATTRITION – Power BI Project Explanation
+ 
+**Project Overview**
 
 The **HR Attrition Analysis Dashboard** is designed to analyze employee turnover patterns within an organization.
 
