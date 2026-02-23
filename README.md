@@ -17,9 +17,7 @@ The objective of this project is to:
 
 This dashboard helps HR managers and business leaders make strategic workforce decisions.
 
----
-
-## 🔹 2. Dataset Description
+ Dataset Description
 
 The dataset contains employee-related information such as:
 
@@ -36,9 +34,7 @@ The dataset contains employee-related information such as:
 * Overtime
 * Attrition (Yes/No)
 
----
-
-## 🔹 3. Data Preparation (Power Query)
+**Data Preparation (Power Query)**
 
 Steps performed in Power BI:
 
@@ -51,31 +47,30 @@ Steps performed in Power BI:
 4. Converted data types properly
 5. Removed duplicates
 
----
 
-## 🔹 4. DAX Measures Used
+  **DAX Measures Used**
 
 Some important DAX measures created:
 
-### 🔸 Attrition Count
+ Attrition Count
 
-```DAX
+DAX
 Attrition_Count = CALCULATE(COUNT(Employee[EmployeeID]), Employee[Attrition] = "Yes")
-```
 
-### 🔸 Total Income
+
+ Total Income
 
 ```DAX
 Total_Income = SUM(Employee[MonthlyIncome])
 ```
 
-### 🔸 Average Salary
+ **Average Salary**
 
 ```DAX
 Avg_Salary = AVERAGE(Employee[MonthlyIncome])
 ```
 
-### 🔸 Overtime Count
+** Overtime Count**
 
 ```DAX
 Over_Time = CALCULATE(COUNT(Employee[EmployeeID]), Employee[OverTime] = "Yes")
@@ -83,8 +78,8 @@ Over_Time = CALCULATE(COUNT(Employee[EmployeeID]), Employee[OverTime] = "Yes")
 
 ---
 
-## 🔹 5. Dashboard KPI Cards (Top Section)
-
+** Dashboard KPI Cards (Top Section)
+**
 Your dashboard includes key performance indicators:
 
 * **Attrition Count → 102**
@@ -97,9 +92,7 @@ These KPIs give a quick summary of workforce metrics.
 
 ---
 
-## 🔹 6. Visual Analysis Explanation
-
-### 📌 1. Job Role by Attrition & Age Group (Clustered Column Chart)
+**Visual Analysis Explanation* Job Role by Attrition & Age Group (Clustered Column Chart)
 
 Shows:
 
@@ -107,25 +100,25 @@ Shows:
 * Mid-career employees are more likely to leave
 * Younger workforce has higher mobility
 
----
 
-### 📌 2. Job Satisfaction by Salary Slab (Donut Chart)
+
+**Job Satisfaction by Salary Slab (Donut Chart)**
 
 Insight:
 
 * Majority of employees fall in **15K+ salary slab**
 * Higher salary correlates with better satisfaction
 
----
 
-### 📌 3. Sum of Hourly Rate (Gauge Chart)
+
+ **Sum of Hourly Rate (Gauge Chart)**
 
 * Displays total hourly compensation (6817)
 * Helps track workforce cost efficiency
 
----
 
-### 📌 4. Attrition by Department (Pie Chart)
+
+ **Attrition by Department (Pie Chart)**
 
 * **Research & Development** has highest attrition
 * Sales is second
@@ -133,25 +126,24 @@ Insight:
 
 This helps management focus retention strategies on specific departments.
 
----
 
-### 📌 5. Attrition by Marital Status (Bar Chart)
 
+** Attrition by Marital Status (Bar Chart)
+**
 * Married employees show highest attrition count
 * Divorced and Single follow
 
 This may indicate work-life balance factors.
 
----
 
-### 📌 6. Department by Attrition & Marital Status
+
+ **Department by Attrition & Marital Status**
 
 * Married employees in R&D show significant attrition
 * Helps combine demographic and department-level insights
 
----
 
-## 🔹 7. Slicers Used
+**Slicers Used**
 
 Left panel includes filters for:
 
@@ -163,9 +155,9 @@ Left panel includes filters for:
 
 These slicers allow dynamic filtering and interactive analysis.
 
----
 
-## 🔹 8. Key Business Insights
+
+** Key Business Insights**
 
 ✔ Highest attrition occurs in 26–35 age group
 ✔ Research & Development department needs retention strategies
@@ -173,9 +165,9 @@ These slicers allow dynamic filtering and interactive analysis.
 ✔ Salary and job satisfaction are related
 ✔ Married employees show higher attrition trend
 
----
 
-## 🔹 9. Business Recommendations
+
+ **Business Recommendations**
 
 1. Improve work-life balance policies
 2. Reduce excessive overtime
@@ -183,20 +175,19 @@ These slicers allow dynamic filtering and interactive analysis.
 4. Provide performance-based salary increments
 5. Conduct satisfaction surveys in R&D department
 
----
 
-## 🔹 10. Tools & Technologies Used
 
+ ** Tools & Technologies Used
+**
 * Power BI Desktop
 * Power Query
 * DAX
 * Data Modeling
 * Interactive Visualizations
 
----
 
-# 🎯 Conclusion
-
+** Conclusion
+**
 This HR Attrition Analysis dashboard helps the organization:
 
 * Understand why employees leave
@@ -206,14 +197,4 @@ This HR Attrition Analysis dashboard helps the organization:
 
 It transforms raw HR data into actionable business intelligence.
 
----
 
-If you want, I can also give:
-
-* 🔹 Short 1-minute interview explanation
-* 🔹 GitHub README description
-* 🔹 Resume project description (ATS friendly)
-* 🔹 Viva questions & answers
-* 🔹 PPT content for presentation
-
-Tell me which one you need 😊
